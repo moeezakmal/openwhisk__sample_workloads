@@ -7,7 +7,7 @@ def matmul(N):
 
     start = time()
     C = np.matmul(A, B)
-    latency = time() - start
+    latency = (time() - start)*1000
 
     return latency
 
