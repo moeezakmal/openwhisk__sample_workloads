@@ -31,86 +31,29 @@ Resp Headers
     "keep-alive"
   ],
   "Content-Length": [
-    "30"
-  ],
-  "Content-Type": [
-    "application/json"
-  ],
-  "Date": [
-    "Tue, 05 Mar 2024 01:00:29 GMT"
-  ],
-  "Server": [
-    "nginx/1.21.1"
-  ],
-  "X-Openwhisk-Activation-Id": [
-    "90b2573b3de24fc3b2573b3de20fc39c"
-  ],
-  "X-Request-Id": [
-    "WPSQ2B2ssftMAcFnTYzDaFemy1JX09j9"
-  ]
-}
-Response body size is 30 bytes
-Response body received:
-{"latency":0.1475811004638672}
-{
-    "latency": 0.1475811004638672
-}
-REQUEST:
-[POST]	https://35.225.199.63:31001/api/v1/namespaces/_/actions/matmult2?blocking=true&result=true
-Req Headers
-{
-  "Authorization": [
-    "Basic MjNiYzQ2YjEtNzFmNi00ZWQ1LThjNTQtODE2YWE0ZjhjNTAyOjEyM3pPM3haQ0xyTU42djJCS0sxZFhZRnBYbFBrY2NPRnFtMTJDZEFzTWdSVTRWck5aOWx5R1ZDR3VNREdJd1A="
-  ],
-  "Content-Type": [
-    "application/json"
-  ],
-  "User-Agent": [
-    "OpenWhisk-CLI/1.0 (2021-03-26T01:02:38.401+0000) linux 386"
-  ]
-}
-Req Body
-{"N":10}
-
-RESPONSE:Got response with code 200
-Resp Headers
-{
-  "Access-Control-Allow-Headers": [
-    "Authorization, Origin, X-Requested-With, Content-Type, Accept, User-Agent"
-  ],
-  "Access-Control-Allow-Methods": [
-    "GET, DELETE, POST, PUT, HEAD"
-  ],
-  "Access-Control-Allow-Origin": [
-    "*"
-  ],
-  "Connection": [
-    "keep-alive"
-  ],
-  "Content-Length": [
     "31"
   ],
   "Content-Type": [
     "application/json"
   ],
   "Date": [
-    "Tue, 05 Mar 2024 01:00:29 GMT"
+    "Mon, 04 Mar 2024 23:18:25 GMT"
   ],
   "Server": [
     "nginx/1.21.1"
   ],
   "X-Openwhisk-Activation-Id": [
-    "5cb5ed9fe33c4fb8b5ed9fe33c1fb8d9"
+    "ce62cdb4aec5446ca2cdb4aec5446c44"
   ],
   "X-Request-Id": [
-    "maVcm7Lu2LqPnc2PJ5HUbhf0qIKlaskA"
+    "vDCXkWNy4PDwoLYjsO01xpN4Fsoe47tI"
   ]
 }
 Response body size is 31 bytes
 Response body received:
-{"latency":0.03790855407714844}
+{"latency":0.06794929504394531}
 {
-    "latency": 0.03790855407714844
+    "latency": 0.06794929504394531
 }
 REQUEST:
 [POST]	https://35.225.199.63:31001/api/v1/namespaces/_/actions/matmult2?blocking=true&result=true
@@ -151,16 +94,187 @@ Resp Headers
     "application/json"
   ],
   "Date": [
-    "Tue, 05 Mar 2024 01:00:29 GMT"
+    "Mon, 04 Mar 2024 23:18:25 GMT"
   ],
   "Server": [
     "nginx/1.21.1"
   ],
   "X-Openwhisk-Activation-Id": [
-    "bd60bccf694946a0a0bccf694906a0a8"
+    "0826d35d333041c1a6d35d333011c185"
   ],
   "X-Request-Id": [
-    "Hrpp0KYpvFGTXhzF7cVWkD5nLJ9oJZEt"
+    "CBFoehqUgkMqPcUJ7mE9EwLxG4PxVJcR"
+  ]
+}
+Response body size is 31 bytes
+Response body received:
+{"latency":0.04506111145019531}
+{
+    "latency": 0.04506111145019531
+}
+REQUEST:
+[POST]	https://35.225.199.63:31001/api/v1/namespaces/_/actions/matmult2?blocking=true&result=true
+Req Headers
+{
+  "Authorization": [
+    "Basic MjNiYzQ2YjEtNzFmNi00ZWQ1LThjNTQtODE2YWE0ZjhjNTAyOjEyM3pPM3haQ0xyTU42djJCS0sxZFhZRnBYbFBrY2NPRnFtMTJDZEFzTWdSVTRWck5aOWx5R1ZDR3VNREdJd1A="
+  ],
+  "Content-Type": [
+    "application/json"
+  ],
+  "User-Agent": [
+    "OpenWhisk-CLI/1.0 (2021-03-26T01:02:38.401+0000) linux 386"
+  ]
+}
+Req Body
+{"N":10}
+
+RESPONSE:Got response with code 200
+Resp Headers
+{
+  "Access-Control-Allow-Headers": [
+    "Authorization, Origin, X-Requested-With, Content-Type, Accept, User-Agent"
+  ],
+  "Access-Control-Allow-Methods": [
+    "GET, DELETE, POST, PUT, HEAD"
+  ],
+  "Access-Control-Allow-Origin": [
+    "*"
+  ],
+  "Connection": [
+    "keep-alive"
+  ],
+  "Content-Length": [
+    "31"
+  ],
+  "Content-Type": [
+    "application/json"
+  ],
+  "Date": [
+    "Mon, 04 Mar 2024 23:18:25 GMT"
+  ],
+  "Server": [
+    "nginx/1.21.1"
+  ],
+  "X-Openwhisk-Activation-Id": [
+    "6d71988dcaa94eebb1988dcaa98eeb94"
+  ],
+  "X-Request-Id": [
+    "vT6G9T8RFMmUB1bg2OHQ7zi0F4Y7ZWoe"
+  ]
+}
+Response body size is 31 bytes
+Response body received:
+{"latency":0.04291534423828125}
+{
+    "latency": 0.04291534423828125
+}
+REQUEST:
+[POST]	https://35.225.199.63:31001/api/v1/namespaces/_/actions/matmult2?blocking=true&result=true
+Req Headers
+{
+  "Authorization": [
+    "Basic MjNiYzQ2YjEtNzFmNi00ZWQ1LThjNTQtODE2YWE0ZjhjNTAyOjEyM3pPM3haQ0xyTU42djJCS0sxZFhZRnBYbFBrY2NPRnFtMTJDZEFzTWdSVTRWck5aOWx5R1ZDR3VNREdJd1A="
+  ],
+  "Content-Type": [
+    "application/json"
+  ],
+  "User-Agent": [
+    "OpenWhisk-CLI/1.0 (2021-03-26T01:02:38.401+0000) linux 386"
+  ]
+}
+Req Body
+{"N":10}
+
+RESPONSE:Got response with code 200
+Resp Headers
+{
+  "Access-Control-Allow-Headers": [
+    "Authorization, Origin, X-Requested-With, Content-Type, Accept, User-Agent"
+  ],
+  "Access-Control-Allow-Methods": [
+    "GET, DELETE, POST, PUT, HEAD"
+  ],
+  "Access-Control-Allow-Origin": [
+    "*"
+  ],
+  "Connection": [
+    "keep-alive"
+  ],
+  "Content-Length": [
+    "31"
+  ],
+  "Content-Type": [
+    "application/json"
+  ],
+  "Date": [
+    "Mon, 04 Mar 2024 23:18:25 GMT"
+  ],
+  "Server": [
+    "nginx/1.21.1"
+  ],
+  "X-Openwhisk-Activation-Id": [
+    "b76ff144b83e4313aff144b83e931351"
+  ],
+  "X-Request-Id": [
+    "BKNldruQn2JWUZWDgj7QOCxkOShe6cfs"
+  ]
+}
+Response body size is 31 bytes
+Response body received:
+{"latency":0.02765655517578125}
+{
+    "latency": 0.02765655517578125
+}
+REQUEST:
+[POST]	https://35.225.199.63:31001/api/v1/namespaces/_/actions/matmult2?blocking=true&result=true
+Req Headers
+{
+  "Authorization": [
+    "Basic MjNiYzQ2YjEtNzFmNi00ZWQ1LThjNTQtODE2YWE0ZjhjNTAyOjEyM3pPM3haQ0xyTU42djJCS0sxZFhZRnBYbFBrY2NPRnFtMTJDZEFzTWdSVTRWck5aOWx5R1ZDR3VNREdJd1A="
+  ],
+  "Content-Type": [
+    "application/json"
+  ],
+  "User-Agent": [
+    "OpenWhisk-CLI/1.0 (2021-03-26T01:02:38.401+0000) linux 386"
+  ]
+}
+Req Body
+{"N":10}
+
+RESPONSE:Got response with code 200
+Resp Headers
+{
+  "Access-Control-Allow-Headers": [
+    "Authorization, Origin, X-Requested-With, Content-Type, Accept, User-Agent"
+  ],
+  "Access-Control-Allow-Methods": [
+    "GET, DELETE, POST, PUT, HEAD"
+  ],
+  "Access-Control-Allow-Origin": [
+    "*"
+  ],
+  "Connection": [
+    "keep-alive"
+  ],
+  "Content-Length": [
+    "31"
+  ],
+  "Content-Type": [
+    "application/json"
+  ],
+  "Date": [
+    "Mon, 04 Mar 2024 23:18:25 GMT"
+  ],
+  "Server": [
+    "nginx/1.21.1"
+  ],
+  "X-Openwhisk-Activation-Id": [
+    "66c15fd6ef6c43d9815fd6ef6c13d90b"
+  ],
+  "X-Request-Id": [
+    "CHGsPO5sJTIwwHgf1tiGhv3GWOnMhiOh"
   ]
 }
 Response body size is 31 bytes
@@ -208,23 +322,23 @@ Resp Headers
     "application/json"
   ],
   "Date": [
-    "Tue, 05 Mar 2024 01:00:29 GMT"
+    "Mon, 04 Mar 2024 23:18:25 GMT"
   ],
   "Server": [
     "nginx/1.21.1"
   ],
   "X-Openwhisk-Activation-Id": [
-    "46214786262a4d7ca14786262a2d7c88"
+    "6d98a81a3ef7455f98a81a3ef7f55f38"
   ],
   "X-Request-Id": [
-    "xwFFFb7nGHnnPum2dG4lpNJ6nZG2nqi4"
+    "1GhREMnPGyJnkJBO72bl2cHnYGMUS23v"
   ]
 }
 Response body size is 31 bytes
 Response body received:
-{"latency":0.03910064697265625}
+{"latency":0.02765655517578125}
 {
-    "latency": 0.03910064697265625
+    "latency": 0.02765655517578125
 }
 REQUEST:
 [POST]	https://35.225.199.63:31001/api/v1/namespaces/_/actions/matmult2?blocking=true&result=true
@@ -259,29 +373,29 @@ Resp Headers
     "keep-alive"
   ],
   "Content-Length": [
-    "32"
+    "30"
   ],
   "Content-Type": [
     "application/json"
   ],
   "Date": [
-    "Tue, 05 Mar 2024 01:00:29 GMT"
+    "Mon, 04 Mar 2024 23:18:25 GMT"
   ],
   "Server": [
     "nginx/1.21.1"
   ],
   "X-Openwhisk-Activation-Id": [
-    "788593f7d43b4c378593f7d43bec37e5"
+    "28b9d64448054d59b9d64448051d5987"
   ],
   "X-Request-Id": [
-    "Vjq4T2cLMMuRKChXHEEsO2s81z49SHfw"
+    "MA84wqowhEYW4mLnFc32Q3Bmd0O32PcL"
   ]
 }
-Response body size is 32 bytes
+Response body size is 30 bytes
 Response body received:
-{"latency":0.040531158447265625}
+{"latency":0.0400543212890625}
 {
-    "latency": 0.040531158447265625
+    "latency": 0.0400543212890625
 }
 REQUEST:
 [POST]	https://35.225.199.63:31001/api/v1/namespaces/_/actions/matmult2?blocking=true&result=true
@@ -316,29 +430,29 @@ Resp Headers
     "keep-alive"
   ],
   "Content-Length": [
-    "32"
+    "29"
   ],
   "Content-Type": [
     "application/json"
   ],
   "Date": [
-    "Tue, 05 Mar 2024 01:00:30 GMT"
+    "Mon, 04 Mar 2024 23:18:25 GMT"
   ],
   "Server": [
     "nginx/1.21.1"
   ],
   "X-Openwhisk-Activation-Id": [
-    "79d825395bac4e6f9825395bacce6f93"
+    "2724759ac6534ffaa4759ac653effa9e"
   ],
   "X-Request-Id": [
-    "LlKvNrTME2ejeGWt46n5TMqiN9Fb7n4v"
+    "yEEQAWPmtNUitupNTRc7rCbTHq0VOmMg"
   ]
 }
-Response body size is 32 bytes
+Response body size is 29 bytes
 Response body received:
-{"latency":0.039577484130859375}
+{"latency":0.026702880859375}
 {
-    "latency": 0.039577484130859375
+    "latency": 0.026702880859375
 }
 REQUEST:
 [POST]	https://35.225.199.63:31001/api/v1/namespaces/_/actions/matmult2?blocking=true&result=true
@@ -379,73 +493,16 @@ Resp Headers
     "application/json"
   ],
   "Date": [
-    "Tue, 05 Mar 2024 01:00:30 GMT"
+    "Mon, 04 Mar 2024 23:18:26 GMT"
   ],
   "Server": [
     "nginx/1.21.1"
   ],
   "X-Openwhisk-Activation-Id": [
-    "082ffdf33c61471faffdf33c61171f61"
+    "4cfcf2d4cc1e490cbcf2d4cc1ea90c62"
   ],
   "X-Request-Id": [
-    "wOyAEQrpsrQqaZeu6RUYuSfFZrZfmhp3"
-  ]
-}
-Response body size is 31 bytes
-Response body received:
-{"latency":0.03719329833984375}
-{
-    "latency": 0.03719329833984375
-}
-REQUEST:
-[POST]	https://35.225.199.63:31001/api/v1/namespaces/_/actions/matmult2?blocking=true&result=true
-Req Headers
-{
-  "Authorization": [
-    "Basic MjNiYzQ2YjEtNzFmNi00ZWQ1LThjNTQtODE2YWE0ZjhjNTAyOjEyM3pPM3haQ0xyTU42djJCS0sxZFhZRnBYbFBrY2NPRnFtMTJDZEFzTWdSVTRWck5aOWx5R1ZDR3VNREdJd1A="
-  ],
-  "Content-Type": [
-    "application/json"
-  ],
-  "User-Agent": [
-    "OpenWhisk-CLI/1.0 (2021-03-26T01:02:38.401+0000) linux 386"
-  ]
-}
-Req Body
-{"N":10}
-
-RESPONSE:Got response with code 200
-Resp Headers
-{
-  "Access-Control-Allow-Headers": [
-    "Authorization, Origin, X-Requested-With, Content-Type, Accept, User-Agent"
-  ],
-  "Access-Control-Allow-Methods": [
-    "GET, DELETE, POST, PUT, HEAD"
-  ],
-  "Access-Control-Allow-Origin": [
-    "*"
-  ],
-  "Connection": [
-    "keep-alive"
-  ],
-  "Content-Length": [
-    "31"
-  ],
-  "Content-Type": [
-    "application/json"
-  ],
-  "Date": [
-    "Tue, 05 Mar 2024 01:00:30 GMT"
-  ],
-  "Server": [
-    "nginx/1.21.1"
-  ],
-  "X-Openwhisk-Activation-Id": [
-    "f35fd02b8be9485e9fd02b8be9485ecd"
-  ],
-  "X-Request-Id": [
-    "l6WjMG5maMTJUGHRUrEpzf9OYg5gw6Dz"
+    "ceTjmlNsXUQbgt4k4hSoQ40jnhneG5cL"
   ]
 }
 Response body size is 31 bytes
@@ -487,84 +544,27 @@ Resp Headers
     "keep-alive"
   ],
   "Content-Length": [
-    "31"
-  ],
-  "Content-Type": [
-    "application/json"
-  ],
-  "Date": [
-    "Tue, 05 Mar 2024 01:00:30 GMT"
-  ],
-  "Server": [
-    "nginx/1.21.1"
-  ],
-  "X-Openwhisk-Activation-Id": [
-    "78050294b64e4d20850294b64ebd2032"
-  ],
-  "X-Request-Id": [
-    "l5o9i3TKFIXfpFsNzCTUXaN7oObqqJ3k"
-  ]
-}
-Response body size is 31 bytes
-Response body received:
-{"latency":0.04029273986816406}
-{
-    "latency": 0.04029273986816406
-}
-REQUEST:
-[POST]	https://35.225.199.63:31001/api/v1/namespaces/_/actions/matmult2?blocking=true&result=true
-Req Headers
-{
-  "Authorization": [
-    "Basic MjNiYzQ2YjEtNzFmNi00ZWQ1LThjNTQtODE2YWE0ZjhjNTAyOjEyM3pPM3haQ0xyTU42djJCS0sxZFhZRnBYbFBrY2NPRnFtMTJDZEFzTWdSVTRWck5aOWx5R1ZDR3VNREdJd1A="
-  ],
-  "Content-Type": [
-    "application/json"
-  ],
-  "User-Agent": [
-    "OpenWhisk-CLI/1.0 (2021-03-26T01:02:38.401+0000) linux 386"
-  ]
-}
-Req Body
-{"N":10}
-
-RESPONSE:Got response with code 200
-Resp Headers
-{
-  "Access-Control-Allow-Headers": [
-    "Authorization, Origin, X-Requested-With, Content-Type, Accept, User-Agent"
-  ],
-  "Access-Control-Allow-Methods": [
-    "GET, DELETE, POST, PUT, HEAD"
-  ],
-  "Access-Control-Allow-Origin": [
-    "*"
-  ],
-  "Connection": [
-    "keep-alive"
-  ],
-  "Content-Length": [
     "32"
   ],
   "Content-Type": [
     "application/json"
   ],
   "Date": [
-    "Tue, 05 Mar 2024 01:00:30 GMT"
+    "Mon, 04 Mar 2024 23:18:26 GMT"
   ],
   "Server": [
     "nginx/1.21.1"
   ],
   "X-Openwhisk-Activation-Id": [
-    "4832d07a4cdc4598b2d07a4cdca598b1"
+    "e1136f4d620148e1936f4d620178e1aa"
   ],
   "X-Request-Id": [
-    "BnR8bWa42bGyiDQoTTx5qc03ggw9SxRb"
+    "CHVhZH2QQzyg9KdHWtJPntljUjgiqZbf"
   ]
 }
 Response body size is 32 bytes
 Response body received:
-{"latency":0.039577484130859375}
+{"latency":0.027179718017578125}
 {
-    "latency": 0.039577484130859375
+    "latency": 0.027179718017578125
 }
